@@ -1,0 +1,16 @@
+.carousel {
+    background-color: brown;
+}
+
+.homeCardGroup {
+    padding: 0
+}
+.homeCard {
+    margin: 1%;
+    border: 3px solid grey;
+}
+.homeCardImg {
+    width: 100px;
+    height: 100px;  
+    padding: 0;
+}

@@ -1,0 +1,53 @@
+.tabs-nav {
+    display: flex;
+    list-style: none;
+}
+.tabs-nav li {
+    padding: 0px 20px;
+}
+.tabs-nav li.active{
+    font-weight: bold;
+}
+.tabs-nav li.active a {
+    color: red;
+}
+.tabs-content {
+    border: 1px solid #ccc;
+    min-height: 200px;
+}
+.conteiner {
+    display: flex;
+}
+img {
+    height: 200px;
+    display: flex;
+    margin: 20% 2% 5% 20%;
+}
+.conteiner {
+    display: flex;
+}
+.divRow {
+    padding: 5% 5% 5% 10%;
+}
+.AboutUsNav {
+    padding-left: 1%;
+}
+.AbooutUsTabsNav {
+    padding: 3% 0 0 0;
+}
+.col-7 {
+    padding: 4% 0 0 30%;
+}
+.iconF {
+    font-size: 80px;
+    padding-right: 3%;
+}
+.iconI {
+    font-size: 80px;
+    padding-left: 3%;
+}
+.iconT {
+    font-size: 85px;
+    padding-left: 3%;
+    padding-right: 3%;
+}

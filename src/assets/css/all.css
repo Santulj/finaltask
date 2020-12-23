@@ -1,0 +1,68 @@
+/* ABONENTS */
+.abonentsJumptron {
+    padding-top: 2%;
+}
+.abonentsPagination {
+    position: relative;
+    left: 89%;
+    padding-top: 50px;
+}
+
+/* RESIDENT */
+.residentDivRow {
+    padding: 2% 0 2% 0;
+    display: flex;
+    justify-content: center;
+}
+.residentRow {
+    padding-right: 30px;
+    display: flex;
+}
+.residentLine {
+    color: white;
+    font-size: 15px;
+}
+.residentDivCol {
+    padding-top: 20px;
+}
+.residentCol {
+    text-align: justify;
+}
+
+/* CHAT */
+.chatH {
+    padding: 1% 3% 0 6%;
+}
+.chatConteiner {
+    padding: 1% 7%;
+}
+.chatBox {
+    border: 1px solid black;
+    height: 300px; 
+    width: 1000px;
+    overflow: scroll;
+}
+.chatDivCol {
+    border: 1px solid black;
+}
+.chatCol {
+    padding-left: 2%;
+}
+.chatColA {
+    padding-left: 1%;
+}
+.chatColCol {
+    padding-bottom: 2%;
+}
+.chatButton {
+    padding: 0 0 2% 3%;
+}
+
+/* REGISTRATION */
+.registrationInput {
+    cursor: pointer;
+}
+.registrationLabel {
+    padding: 1%;
+    cursor: pointer;
+}

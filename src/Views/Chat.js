@@ -1,8 +1,11 @@
 import { NavLink } from 'react-router-dom';
 import React from 'react';
 import '../assets/css/all.css';
+import Moment from 'react-moment';
+import moment from 'moment';
 
-class Chat extends React.Component {
+class Chat extends React.Component { 
+
     state = {
       post: {
         name: "",
@@ -26,9 +29,11 @@ class Chat extends React.Component {
         post: { name: "", description: "" }
       }));
     };
-  
+    
+
  render() {
     return (
+
         <div >
 {/* NAVIGATION */}
             <ul className="nav">
@@ -47,10 +52,12 @@ class Chat extends React.Component {
             {/* box */}
                         <p className="messageBox">
                             {this.state.jobs.map((job, index) => (
-                                <div key={index}>
-                                    <strong>{job.name}:</strong> 
+                                <div key={index} className="chatInput">
+                                    <Moment local className="chatNow"></Moment><br/>
+                                    <strong>{job.name} : </strong> 
                                     <br/>
-                                    {job.description}
+                                    <>{job.description}</>
+                                    <br/>
                                 </div>
                             ))} 
                         </p>

@@ -142,7 +142,7 @@ function Abonents() {
             <div className="abonentsPagination" >
                 <Pagination size="sm">{items}</Pagination>
             </div>
-        </div >
+        </div>
     )
 }
 

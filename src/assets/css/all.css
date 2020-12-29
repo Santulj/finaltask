@@ -30,6 +30,7 @@
 .residentImages {
     width: 35%;
     display: inline;
+    cursor: pointer;
 }
 .image-card:first-child {
     width: 350px;
@@ -94,6 +95,12 @@
 }
 .chatButton {
     padding: 0 0 2% 3%;
+}
+.chatNow {
+    font-size: 10px;
+}
+.chatInput {
+    padding-bottom: 20px;
 }
 
 /* REGISTRATION */
